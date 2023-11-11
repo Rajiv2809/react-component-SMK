@@ -34,7 +34,7 @@ class ContactInput extends React.Component {
     event.preventDefault();
     this.props.addContact(this.state);
 
-    // Reset the input fields
+    
     this.setState({
       name: "",
       tag: "",
